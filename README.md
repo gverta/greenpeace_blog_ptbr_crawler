@@ -4,7 +4,7 @@
 
 This spider crawls the blog and returns the posts released officialy by the Greenpeace team.
 
-The solution is Dokerized and can be run by building the container immage in a linux terminal, from the Dockerfile, with:
+The solution is Containerized and can be run by building the container image in a linux terminal, from the Dockerfile, with:
 
 ```shell
 docker build -t gp_scraper:1.0 ./
